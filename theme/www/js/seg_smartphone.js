@@ -4585,3 +4585,18 @@ Util.Objects["login"] = new function() {
 	}
 }
 
+
+/*i-mads.js*/
+Util.Objects["mads"] = new function() {
+	this.init = function(scene) {
+		scene.resized = function() {
+		}
+		scene.scrolled = function() {
+		}
+		scene.ready = function() {
+			console.log('i-mads: scene is ready');
+		}
+		scene.ready();
+	}
+}
+

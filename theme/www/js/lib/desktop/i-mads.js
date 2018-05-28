@@ -1,4 +1,4 @@
-Util.Objects["front"] = new function() {
+Util.Objects["mads"] = new function() {
 	this.init = function(scene) {
 
 		scene.resized = function() {
@@ -11,7 +11,7 @@ Util.Objects["front"] = new function() {
 
 		scene.ready = function() {
 //			u.bug("scene.ready:" + u.nodeId(this));
-			console.log('front: page is ready')
+			console.log('i-mads: scene is ready');
 		}
 
 		// scene is ready
